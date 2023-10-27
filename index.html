@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/fonts.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+</head>
+<body>
+    <header>
+        <div>
+            <button class="hide-on-desktop">
+                <img src="assets/img/menu.png" alt="menu" />
+            </button>
+
+            <ul>
+                <li class="active" class="hide-on-desktop">
+                    <a id="acticve-text" href="#">Todas</a>
+                </li>
+
+                <li class="hide-on-desktop">
+                    <a href="#">Imagens</a>
+                </li>
+            </ul>
+        </div>
+
+        <nav>
+            <ul>
+                <li class="hide-on-desktop">
+                    <img src="assets/img/notification.png" alt="Notificação" />
+                </li>
+
+                <li class="link-desktop">
+                    <a href="https://mail.google.com">Gmail</a>
+                </li>
+
+                <li class="link-desktop">
+                    <a href="https://google.com/imghp">Imagens</a>
+                </li>
+
+                <li>
+                    <img src="assets/svg/apps.svg" alt="Google apps">
+                </li>
+
+                <li id="profile">
+                    <img src="assets/svg/stroke.svg" alt="Stroke">
+                    <img id="avatar" src="assets/img/photo.jpg" alt="Photo">
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <img src="assets/img/logo.png" alt="Logo Google" id="logo"/>
+
+            <form action="https://google.com/search">
+                <div>
+                    <div>
+                        <img src="assets/svg/search.svg" alt="Lupa">
+                    </div>
+
+                    <input type="search" name="q" aria-label="Pesquisa">                
+
+                    <div class="input-icons">
+                        <img src="assets/img/keyboard.png" alt="Teclado">
+                    </div>
+
+                    <div class="input-icons">
+                        <img src="assets/svg/microphone.svg" alt="Microfone">
+                    </div>
+
+                    <div class="input-icons">
+                        <img src="assets/svg/lens.svg" alt="Câmera">
+                    </div>
+                </div>
+
+                <div class="actions">
+                    <button type="submit">Pesquisa Google</button>
+                    <button type="button" id="btn-sorte">Estou com sorte</button>
+                </div>
+            </div>
+            </form>
+        </div>
+
+        <ul class="hide-on-desktop">
+            <li class="header">
+                <span>Pesquisas em alta</span>
+                <img src="assets/svg/dots.svg" alt="dots">
+            </li>
+
+            <li>
+                <img src="assets/img/arrow.png" alt="arrow">
+                <a href="#">Curso completo de HTML-5</a>
+            </li>
+
+            <li>
+                <img src="assets/img/arrow.png" alt="arrow">
+                <a href="#">Curso completo de CSS-3</a>
+            </li>
+
+            <li>
+                <img src="assets/img/arrow.png" alt="arrow">
+                <a href="#">Curso completo de Javascript</a>
+            </li>
+        </ul>
+    </main>
+
+    <footer>
+        <p>Brasil</p>
+        <nav>
+            <ul>
+                <li><a href="https://about.google/?utm_source=google-BR&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre</a></li>
+                <li><a href="https://ads.google.com/intl/pt-BR_br/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidade</a></li>
+                <li><a href="https://smallbusiness.withgoogle.com/intl/pt-BR_br/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=BR#!/">Negócios</a></li>
+                <li><a href="https://www.google.com/search/howsearchworks/?fg=1">Como funciona a pesquisa</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="https://policies.google.com/privacy?hl=pt-BR&amp;fg=1" ping="/url?sa=t&amp;rct=j&amp;source=webhp&amp;url=https://policies.google.com/privacy%3Fhl%3Dpt-BR%26fg%3D1&amp;ved=0ahUKEwiQ2tSLgZKCAxUwlJUCHeCOANIQ8awCCBQ&amp;bl=Za3I&amp;opi=89978449">Privacidade</a></li>
+                <li><a href="https://policies.google.com/terms?hl=pt-BR&amp;fg=1" ping="/url?sa=t&amp;rct=j&amp;source=webhp&amp;url=https://policies.google.com/terms%3Fhl%3Dpt-BR%26fg%3D1&amp;ved=0ahUKEwiQ2tSLgZKCAxUwlJUCHeCOANIQ8qwCCBU&amp;bl=Za3I&amp;opi=89978449">Termos</a></li>
+                <li><a href="#">Configurações</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
